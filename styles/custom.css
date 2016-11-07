@@ -1,0 +1,10 @@
+.caption h2 {
+	font-size: .66em;
+	margin: 0 0 .2em;
+	line-height: 1;
+}
+
+.title.slide h2 {
+	font-size: 4em;
+	margin-top: 1em;
+}

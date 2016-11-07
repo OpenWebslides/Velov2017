@@ -8,3 +8,19 @@
 	font-size: 4em;
 	margin-top: 1em;
 }
+
+.toc.slide a:not(:hover) {
+	background: none;
+}
+
+.toc.slide > ul {
+	margin-left: 146px;
+}
+
+.toc.slide li.active > a {
+	font-weight: bold;
+}
+
+.toc.slide li li {
+	font-size: .9em;
+}

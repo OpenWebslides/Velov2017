@@ -28,3 +28,23 @@
 .toc.slide li li {
 	font-size: .9em;
 }
+
+
+.full #intro h2 {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+.full #intro li {
+	font-size: 2em;
+	position: absolute;
+	margin-left: 100%;
+	width: 66%;
+	background: white;
+	transition: margin-left .7s;
+}
+.full #intro li.active {
+	margin-left: 0;
+}
+.full #intro li:before {
+	content: '';
+}

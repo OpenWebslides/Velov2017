@@ -21,6 +21,10 @@
 	margin-top: 32px;
 }
 
+.slide p + ul {
+	margin-top: -42px;
+}
+
 .title.slide h2 {
 	font-size: 4em;
 	line-height: 1;

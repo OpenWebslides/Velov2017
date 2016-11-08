@@ -47,7 +47,6 @@
 	font-size: .9em;
 }
 
-
 .full #intro h2 {
 	font-size: 3em;
 	margin-bottom: 1em;
@@ -65,4 +64,8 @@
 }
 .full #intro li:before {
 	content: '';
+}
+
+p + .twitter-tweet, p + .fb-post {
+	margin-top: -32px !important;
 }

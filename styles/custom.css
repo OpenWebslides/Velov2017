@@ -13,6 +13,14 @@
 	line-height: 64px;
 }
 
+.slide li li {
+	margin: 16px 0 16px;
+	line-height: 32px;
+}
+.slide li li + li {
+	margin-top: 32px;
+}
+
 .title.slide h2 {
 	font-size: 4em;
 	line-height: 1;

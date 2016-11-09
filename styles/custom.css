@@ -39,7 +39,7 @@
 	margin-left: 146px;
 }
 
-.toc.slide li.active > a {
+.toc.slide li.current > a {
 	font-weight: bold;
 }
 

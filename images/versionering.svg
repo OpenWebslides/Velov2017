@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="860px" height="400px" viewBox="0 0 860 400" enable-background="new 0 0 860 400" xml:space="preserve">
+<rect x="367" y="11" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="54" y="96" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="54" y="200" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="263" y="298" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="54" y="298" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="707" y="96" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="707" y="200" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<rect x="707" y="298" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="100" height="65"/>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="367" y1="43.5" x2="164.45" y2="93.42"/>
+		<g>
+			<polygon fill="#1D71B8" points="164.8,85.68 154.01,96.04 168.38,100.2 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="467" y1="43.5" x2="696.48" y2="93.7"/>
+		<g>
+			<polygon fill="#1D71B8" points="692.76,100.5 707.01,95.96 695.95,85.89 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="104" y1="161" x2="104" y2="189.24"/>
+		<g>
+			<polygon fill="#1D71B8" points="96.56,187.05 104.04,200 111.52,187.05 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="104" y1="265" x2="104" y2="287.24"/>
+		<g>
+			<polygon fill="#1D71B8" points="96.56,285.05 104.04,298 111.52,285.05 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="757" y1="161" x2="757" y2="189.24"/>
+		<g>
+			<polygon fill="#1D71B8" points="749.56,187.05 757.04,200 764.52,187.05 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="757" y1="265" x2="757" y2="287.24"/>
+		<g>
+			<polygon fill="#1D71B8" points="749.56,285.05 757.04,298 764.52,285.05 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="154" y1="232.5" x2="253.77" y2="292.46"/>
+		<g>
+			<polygon fill="#1D71B8" points="248.07,297.7 263.02,297.96 255.77,284.88 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#1D71B8" stroke-width="1.5" stroke-miterlimit="10" x1="363" y1="298" x2="414.46" y2="86.46"/>
+		<g>
+			<polygon fill="#1D71B8" points="421.17,90.34 416.96,75.99 406.63,86.81 			"/>
+		</g>
+	</g>
+</g>
+</svg>

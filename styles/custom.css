@@ -13,6 +13,12 @@
 	line-height: 64px;
 }
 
+.slide h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: .5em;
+}
+
 .slide li li {
 	margin: 16px 0 16px;
 	line-height: 32px;

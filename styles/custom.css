@@ -76,3 +76,7 @@
 p + .twitter-tweet, p + .fb-post {
 	margin-top: -32px !important;
 }
+
+.slide ul.center {
+ text-align: center;
+}

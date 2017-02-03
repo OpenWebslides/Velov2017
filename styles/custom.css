@@ -80,3 +80,7 @@ p + .twitter-tweet, p + .fb-post {
 .slide ul.center {
  text-align: center;
 }
+
+.next-block {
+	height: 200%;
+}

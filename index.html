@@ -247,13 +247,15 @@
 			<li>Eenvoudige aanpassing van stijl</li>
 		</ul>
 		<p>
-			<label><input id="old-template" type="checkbox"> vorige huisstijl</label>
+			<label><input id="old-template" type="checkbox"> oude UGent huisstijl</label>
 		</p>
 		<script>
 			var templateSwitch = document.getElementById('old-template');
 			var mainStyle = document.getElementById('style');
-			var newTemplate = mainStyle.href;
-			var oldTemplate = '//rubenverborgh.github.io/InnoversityChallengeCoachingDays/styles/screen-16x10.css';
+
+			var newTemplate = 'styles/screen-16x10.css';
+			var oldTemplate = 'styles/screen-16x10-ugent-old.css';
+
 			templateSwitch.addEventListener('change', function () {
 				mainStyle.href = templateSwitch.checked ? oldTemplate : newTemplate;
 			});

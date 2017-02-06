@@ -25,7 +25,7 @@
 	<section class="black title slide" id="title">
 		<h2>Open Webslides</h2>
 		<p>
-			<a href="https://www.linkedin.com/in/clio-janssens-399b716b">Dr. Clio Janssens</a>			
+			<a href="https://www.linkedin.com/in/clio-janssens-399b716b">Dr. Clio Janssens</a>
 			&amp;
 			<a href="https://be.linkedin.com/in/estherdeloof">Dr. Esther De Loof</a>
 			<span style="float: right">
@@ -96,12 +96,12 @@
 			<li><a href="#toc-students">Co-creatie met studenten</a></li>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="mentimeter-interest">
 		<iframe src="https://www.mentimeter.com/s/bf8a4ad256886929dcca7c7b319295cb/845b75257386" height="500" width="820"></iframe>
 		<ul class="center">Doe mee op <a href="https://www.menti.com/177b78/0">www.menti.com</a> (code 29 06 75)</ul>
 	</section>
-	
+
 	<section class="slide" id="mentimeter-interest2">
 		<iframe src="https://www.mentimeter.com/s/bf8a4ad256886929dcca7c7b319295cb/52e93fdf6976" height="500" width="820"></iframe>
 		<ul class="center">Doe mee op <a href="https://www.menti.com/177b78/0">www.menti.com</a> (code 29 06 75)</ul>
@@ -163,24 +163,56 @@
 
 	<section class="slide" id="youtube">
 		<h2>Experimenteer via YouTube-clips</h2>
-		<iframe width="800" height="450" src="https://www.youtube.com/embed/0Bt6RPP2ANI?start=250&amp;end=280&amp;rel=0&amp;showinfo=0&amp;autohide=1" frameborder="0" allowfullscreen></iframe>
+		<div id="player"></div>
+		<script>
+			var player;
+			function onYouTubeIframeAPIReady() {
+				player = new YT.Player('player', {
+					height: '450',
+					width: '800',
+					playerVars: {
+						autoplay: 0,
+						loop: 0,
+						controls: 0,
+						showinfo: 0,
+						autohide: 1,
+						start: 250,
+						end: 280,
+						modestbranding: 1,
+						vq: 'hd1080'},
+					videoId: '0Bt6RPP2ANI',
+					events: {
+						'onReady': onPlayerReady,
+						'onStateChange': onPlayerStateChange
+					}
+				});
+			}
+
+			function onPlayerReady(event) {
+				player.mute();
+			}
+
+			function onPlayerStateChange(event) {
+				player.mute();
+			}
+		</script>
 	</section>
-	
+
 	<section class="slide" id="Molecules">
 		<h2>Moleculen via een 3D animatie</h2>
 		<iframe width="800" height="450" src="http://molview.org/"></iframe>
 	</section>
-	
+
 	<section class="slide" id="earthQuake">
 		<h2>Verken data via een 3D animatie</h2>
 		<iframe width="800" height="450" src="http://labs.gmt.io/quake/"></iframe>
 	</section>
-	
+
 	<section class="slide" id="IncomeInequality">
 		<h2>Verken data doorheen de tijd</h2>
 		<iframe width="800" height="450" src="https://www.gapminder.org/tools/#_chart-type=bubbles"></iframe>
 	</section>
-	
+
 	<section class="slide" id="padlet">
 		<h2>Brainstorm via Padlet</h2>
 		<iframe src="https://padlet.com/embed/ituq0w336qcl" frameborder="0" style="width:100%;height:450px;display:block"></iframe>
@@ -230,7 +262,7 @@
 		<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Last part of Web Fundamentals, Linked Data Publishing, now available as <a href="https://twitter.com/OpenWebSlides">@OpenWebSlides</a>: <a href="https://t.co/Lh0JMdSBtg">https://t.co/Lh0JMdSBtg</a> <a href="https://twitter.com/hashtag/LinkedData?src=hash">#LinkedData</a> <a href="https://twitter.com/hashtag/SemWeb?src=hash">#SemWeb</a> <a href="https://twitter.com/hashtag/ITech16?src=hash">#ITech16</a></p>&mdash; Ruben Verborgh (@RubenVerborgh) <a href="https://twitter.com/RubenVerborgh/status/710429385250250754">March 17, 2016</a></blockquote>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</section>
-	
+
 	<section class="slide" id="openConclusion">
 		<h2>Conclusie: eenvoudig delen</h2>
 		<p>Wat loopt vlot:</p>
@@ -241,19 +273,19 @@
 			<li>Binnen hoger onderwijs: meer visibiliteit voor onderzoek via open onderwijs</li>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="openConclusion2">
 		<h2>Conclusie: eenvoudig delen</h2>
 		<p>Waarvoor opletten:</p>
 		<ul>
 			<blockquote>
-			Het was een beetje vervelend dat het lesmateriaal van de twee verschillende proffen op een verschillende manier verdeeld werd. 
-			Voor het ene deel moesten we op minerva zoeken en voor het andere op github. 
+			Het was een beetje vervelend dat het lesmateriaal van de twee verschillende proffen op een verschillende manier verdeeld werd.
+			Voor het ene deel moesten we op minerva zoeken en voor het andere op github.
 			Ik zou het handiger gevonden hebben mochten beide onderdelen op dezelfde plaats ter beschikking staan.
 			</blockquote>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="openConclusion3">
 		<h2>Conclusie: eenvoudig delen</h2>
 		<p>Waarvoor opletten:</p>
@@ -282,7 +314,7 @@
 			<li>De 2D-structuur van Slides.com biedt een aantal interessante mogelijkheden op didactisch vlak</li>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="project-vub2">
 		<h2>Voorbeeld: VUB project</h2>
 		<p>Eerste implementatie van 2D-structuur:</p>
@@ -291,7 +323,7 @@
 			<li>De mededocenten werken elk in een verticale lijn een casus uit binnen hun expertise</li>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="project-vub3">
 		<h2>Voorbeeld: VUB project</h2>
 		<p>Tweede implementatie van 2D-structuur:</p>
@@ -313,8 +345,8 @@
 		<h2>Conclusie: co-creatie met docenten</h2>
 		<blockquote>Doordat tijdens het maken van de slides in <a href="https://www.slides.com">Slides.com</a> de verticale lijn van mijn collega altijd naast mijn vertikale lijn zichtbaar is, kan er meer kruisbestuiving optreden</blockquote>
 		<blockquote>Doordat een critical friend mijn content ziet, doe ik spontaan aan zelf-reflectie</blockquote>
-	</section>	
-	
+	</section>
+
 	<section class="slide" id="demo-slides-com">
 		<iframe src="https://www.youtube.com/embed/V-Ath-3BRw8?start=0&end=351;cc_load_policy=1&amp;hl=en&amp;iv_load_policy=3&amp;disablekb=1&amp;rel=0&amp;showinfo=0&amp;autohide=1" height="480" width="820"></iframe>
 	</section>
@@ -322,12 +354,12 @@
 	<section class="slide" id="mentimeter-slides-com">
 		<iframe src="https://www.mentimeter.com/s/325c313a4270f41745fd802de98a5184/6a5f4db05899" height="500" width="820"></iframe>
 	</section>
-	
+
 	<section class="black toc slide" id="toc-students">
 		<h2>Mogelijkheden van webslides</h2>
 		<ul>
 			<li><a href="#toc-multimedia">Embedden van multimedia</a></li>
-			<li><a href="#toc-share">Eenvoudig delen</a></li> 
+			<li><a href="#toc-share">Eenvoudig delen</a></li>
 			<li><a href="#toc-teachers">Co-creatie tussen docenten</a></li>
 			<li><strong><a href="#toc-students">Co-creatie met studenten</a></strong></li>
 		</ul>
@@ -379,7 +411,7 @@
 		<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Students keep on correcting my slides—and I like it :-) <a href="https://t.co/JVtuN6br42">https://t.co/JVtuN6br42</a> All of that is possible with <a href="https://twitter.com/OpenWebSlides">@OpenWebSlides</a>! <a href="https://twitter.com/hashtag/Innoversity?src=hash">#Innoversity</a></p>&mdash; Ruben Verborgh (@RubenVerborgh) <a href="https://twitter.com/RubenVerborgh/status/700407350159663108">February 18, 2016</a></blockquote>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</section>
-	
+
 	<section class="slide" id="openFeedbackEvaluatie0">
 		<h2>Voorbeeld: Co-creatie met studenten</h2>
 		<ul>
@@ -388,7 +420,7 @@
 			<li>Doordat de docent zich open opstelt ontstaat er een sfeer waarin studenten durven fouten maken</li>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="openFeedbackEvaluatie1">
 		<h2>Conclusie: Co-creatie met studenten</h2>
 		<ul>
@@ -411,18 +443,18 @@
 			Leuk om elke les met een filmpje te beginnen
 			</blockquote>
 			<blockquote>
-			Het beschikbaar stellen van de slides via github was een uitstekend initiatief! 
+			Het beschikbaar stellen van de slides via github was een uitstekend initiatief!
 			De interactieve slides, hyperlinks en kleine demos erin waren een heel groot pluspunt.
 			</blockquote>
 		</ul>
 	</section>
-	
+
 	<section class="slide" id="openFeedbackEvaluatie3">
 		<h2>Conclusie: Co-creatie met studenten</h2>
 		<ul>
 			<blockquote>
-			Ik ben hevige fan geworden van webslides. 
-			Deze zorgden ervoor dat het leren veel sneller en beter ging. 
+			Ik ben hevige fan geworden van webslides.
+			Deze zorgden ervoor dat het leren veel sneller en beter ging.
 			Ik zou aanraden dat Peter deze ook begint te gebruiken.
 			</blockquote>
 		</ul>
@@ -510,7 +542,9 @@
 	<footer class="badge">
 		<a href="https://github.com/OpenWebslides/Velov2017">Fork me on GitHub</a>
 	</footer>
+
 	<script src="scripts/shower.min.js"></script>
+	<script async src="https://www.youtube.com/iframe_api"></script>
 	<script async src="//platform.twitter.com/widgets.js"></script>
 	<script async src="//connect.facebook.net/nl_BE/sdk.js#xfbml=1&amp;version=v2.8&amp;appId=214807838538922"></script>
 </body>
